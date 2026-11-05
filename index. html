@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Gespecialiseerde Fatbike Service & Reparaties 071 & 0174 in Leiden. Fatbike reparaties, banden, remmen en onderhoud.">
+<title>Gespecialiseerde Fatbike Service & Reparaties | Leiden</title>
+<style>
+:root{--dark:#111820;--dark2:#1c2832;--lime:#c8f044;--white:#f7f8f5;--muted:#aeb8bf;--orange:#ff7043}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--white);color:var(--dark);font-family:Arial,Helvetica,sans-serif}
+header{background:var(--dark);color:white;padding:16px 6%;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:13px;min-width:0}
+.brand svg{width:58px;height:58px;flex:none}
+.brand-name{font-size:.92rem;line-height:1.25;font-weight:900;letter-spacing:.5px;text-transform:uppercase}
+.brand-name span{color:var(--lime)}
+nav{display:flex;gap:24px}
+nav a{color:white;text-decoration:none;font-size:.9rem;font-weight:700}
+.hero{background:var(--dark);color:white;padding:48px 6% 72px}
+.poster{max-width:1120px;margin:auto;position:relative;overflow:hidden;border:2px solid var(--lime);padding:clamp(28px,6vw,72px);background:linear-gradient(125deg,#202d37,#131b22 72%);box-shadow:10px 10px 0 var(--lime)}
+.poster:after{content:"";position:absolute;width:360px;height:360px;border:55px solid #ffffff0a;border-radius:50%;right:-100px;top:45px;pointer-events:none}
+.eyebrow{font-size:.78rem;letter-spacing:3px;text-transform:uppercase;font-weight:900;color:var(--lime)}
+h1{font-size:clamp(2.8rem,8vw,6.5rem);line-height:.9;letter-spacing:-4px;text-transform:uppercase;margin:22px 0;max-width:850px}
+h1 span{color:var(--lime)}
+.hero-copy{font-size:1.08rem;line-height:1.7;color:#d4dce1;max-width:620px}
+.button{display:inline-block;background:var(--lime);color:var(--dark);padding:15px 22px;margin-top:17px;text-decoration:none;font-weight:900;text-transform:uppercase;letter-spacing:.5px}
+.area-tag{display:inline-block;margin-left:12px;color:#dce3e7;font-size:.85rem;font-weight:700}
+section{padding:68px 6%}
+.inner{max-width:1120px;margin:auto}
+h2{font-size:clamp(2rem,4.5vw,3.4rem);letter-spacing:-1.8px;text-transform:uppercase;margin:0 0 12px}
+.lead{color:#5c6870;line-height:1.7;max-width:700px}
+.price-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:30px}
+.price{background:white;border:1px solid #e1e5e2;padding:18px 20px;display:flex;align-items:center;justify-content:space-between;gap:15px}
+.price strong{font-size:1rem}.price b{font-size:1.1rem;white-space:nowrap}
+.price.featured{border:2px solid var(--lime);background:#fbfff0}
+.note{font-size:.9rem;color:#5c6870;line-height:1.65;margin-top:18px}
+.services{background:#e9ede7}
+.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+.service{background:white;padding:23px;border-top:4px solid var(--lime)}
+.service small{font-weight:900;letter-spacing:2px;color:#7b8b45}
+.service h3{margin:12px 0 8px;text-transform:uppercase}
+.service p{margin:0;color:#5c6870;line-height:1.6}
+.contact{background:var(--lime)}
+.contact-layout{display:flex;align-items:center;justify-content:space-between;gap:30px;flex-wrap:wrap}
+.contact p{line-height:1.7;max-width:620px}
+.contact-details{display:flex;flex-direction:column;gap:10px;margin-top:18px;font-weight:800}
+.contact-details a{color:var(--dark);text-decoration:none}
+.contact-button{display:inline-block;background:var(--dark);color:white;padding:16px 22px;text-decoration:none;font-weight:900;text-transform:uppercase;white-space:nowrap}
+.socials{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+.socials a{color:var(--dark);font-weight:800;text-decoration:underline;text-underline-offset:4px}
+footer{background:var(--dark);color:#b9c2c8;padding:23px 6%;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:.85rem}
+@media(max-width:720px){header{padding:14px 5%;align-items:flex-start}.brand svg{width:48px;height:48px}.brand-name{font-size:.75rem}nav{gap:12px;flex-wrap:wrap;justify-content:flex-end}nav a{font-size:.78rem}.hero{padding:30px 5% 48px}.poster{box-shadow:6px 6px 0 var(--lime)}h1{letter-spacing:-2px}.area-tag{display:block;margin:14px 0 0}.price-grid,.service-grid{grid-template-columns:1fr}section{padding:52px 6%}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <svg viewBox="0 0 100 100" role="img" aria-label="Fatbike Service logo">
+      <path d="M17 68a23 23 0 1 0 46 0a23 23 0 1 0-46 0M62 68a23 23 0 1 0 46 0a23 23 0 1 0-46 0" fill="none" stroke="#c8f044" stroke-width="7"/>
+      <path d="M30 68l17-34h17l16 34M47 34l15 34M47 34H35M62 34l9-12h12" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M49 15l-8 14h10l-5 12 17-19H52l5-7z" fill="#c8f044"/>
+    </svg>
+    <div class="brand-name">Gespecialiseerde<br><span>Fatbike Service</span><br>& Reparaties 071 & 0174</div>
+  </div>
+  <nav><a href="#prijzen">Prijzen</a><a href="#diensten">Diensten</a><a href="#contact">Contact</a></nav>
+</header>
+
+<main>
+  <div class="hero">
+    <div class="poster">
+      <div class="eyebrow">Gespecialiseerde fatbike service & reparaties</div>
+      <h1>Jouw fatbike.<br><span>Weer rijklaar.</span></h1>
+      <p class="hero-copy">Problemen met je fatbike? Voor banden, remmen, onderhoud en andere reparaties kun je bij ons terecht. Neem contact op en bespreek de mogelijkheden.</p>
+      <a class="button" href="#contact">Neem contact op →</a>
+      <span class="area-tag">📍 Leiden • Regio 071 & 0174</span>
+    </div>
+  </div>
+
+  <section id="prijzen">
+    <div class="inner">
+      <div class="eyebrow" style="color:#718b22">Duidelijke tarieven</div>
+      <h2>Reparaties & prijzen</h2>
+      <p class="lead">Hieronder vind je onze richtprijzen voor veelvoorkomende reparaties.</p>
+      <div class="price-grid">
+        <div class="price"><strong>Binnenband vervangen</strong><b>€ 40,-</b></div>
+        <div class="price"><strong>Buitenband vervangen</strong><b>€ 40,-</b></div>
+        <div class="price featured"><strong>Binnen- en buitenband combideal</strong><b>€ 60,-</b></div>
+        <div class="price"><strong>Remblokken vervangen</strong><b>€ 27,50</b></div>
+        <div class="price"><strong>Remhendel vervangen</strong><b>€ 60,-</b></div>
+        <div class="price"><strong>Remblokken + remhendel combideal</strong><b>€ 75,-</b></div>
+        <div class="price"><strong>Trappers vervangen</strong><b>€ 20,-</b></div>
+        <div class="price"><strong>Scherm monteren</strong><b>Prijs op aanvraag</b></div>
+      </div>
+      <p class="note">Prijzen zijn erg  bespreekbaar en kunnen afhangen van de benodigde tijd en onderdelen. Andere reparaties zijn ook bespreekbaar. Vraag gerust naar de mogelijkheden.</p>
+    </div>
+  </section>
+
+  <section class="services" id="diensten">
+    <div class="inner">
+      <div class="eyebrow" style="color:#718b22">Waarmee kunnen we helpen?</div>
+      <h2>Service voor jouw fatbike</h2>
+      <div class="service-grid">
+        <article class="service"><small>01 / BANDEN</small><h3>Bandenservice</h3><p>Binnenband of buitenband vervangen en hulp bij bandenproblemen.</p></article>
+        <article class="service"><small>02 / REMMEN</small><h3>Remmen repareren</h3><p>Remblokken en remhendels vervangen of laten nakijken.</p></article>
+        <article class="service"><small>03 / OVERIG</small><h3>Overige reparaties</h3><p>Ook voor trappers, schermmontage en andere reparaties kun je contact opnemen.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="inner contact-layout">
+      <div>
+        <div class="eyebrow" style="color:#40500e">Leiden • 071 & 0174</div>
+        <h2>Afspraak maken?</h2>
+        <p>Stuur een berichtje met wat er aan je fatbike moet gebeuren. Dan bespreken we samen de reparatie en de mogelijkheden.</p>
+        <div class="contact-details">
+          <a href="tel:+31639356531">Telefoon: +31 6 39356531</a>
+          <span>Locatie: Leiden en omstreken & Westland</span>
+        </div>
+        <div class="socials">
+          <a href="https://www.tiktok.com/@fatbike.service.071.0174" target="_blank" rel="noopener">TikTok: @fatbike.service.071.0174</a>
+          <a href="https://www.snapchat.com/add/fatbikeservic71" target="_blank" rel="noopener">Snapchat: fatbikeservic71</a>
+        </div>
+      </div>
+      <a class="contact-button" href="https://wa.me/31639356531?text=Hoi%2C%20ik%20wil%20graag%20een%20fatbike-reparatie%20bespreken." target="_blank" rel="noopener">WhatsApp ons →</a>
+    </div>
+  </section>
+</main>
+<footer><span>© 2026 Gespecialiseerde Fatbike Service & Reparaties 071 & 0174</span><span>Leiden</span></footer>
+</body>
+</html>
