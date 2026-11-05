@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -50,7 +51,19 @@ h2{font-size:clamp(2rem,4.5vw,3.4rem);letter-spacing:-1.8px;text-transform:upper
 .socials{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
 .socials a{color:var(--dark);font-weight:800;text-decoration:underline;text-underline-offset:4px}
 footer{background:var(--dark);color:#b9c2c8;padding:23px 6%;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:.85rem}
-@media(max-width:720px){header{padding:14px 5%;align-items:flex-start}.brand svg{width:48px;height:48px}.brand-name{font-size:.75rem}nav{gap:12px;flex-wrap:wrap;justify-content:flex-end}nav a{font-size:.78rem}.hero{padding:30px 5% 48px}.poster{box-shadow:6px 6px 0 var(--lime)}h1{letter-spacing:-2px}.area-tag{display:block;margin:14px 0 0}.price-grid,.service-grid{grid-template-columns:1fr}section{padding:52px 6%}}
+@media(max-width:720px){
+header{padding:14px 5%;align-items:flex-start}
+.brand svg{width:48px;height:48px}
+.brand-name{font-size:.75rem}
+nav{gap:12px;flex-wrap:wrap;justify-content:flex-end}
+nav a{font-size:.78rem}
+.hero{padding:30px 5% 48px}
+.poster{box-shadow:6px 6px 0 var(--lime)}
+h1{letter-spacing:-2px}
+.area-tag{display:block;margin:14px 0 0}
+.price-grid,.service-grid{grid-template-columns:1fr}
+section{padding:52px 6%}
+}
 </style>
 </head>
 <body>
@@ -63,7 +76,11 @@ footer{background:var(--dark);color:#b9c2c8;padding:23px 6%;display:flex;justify
     </svg>
     <div class="brand-name">Gespecialiseerde<br><span>Fatbike Service</span><br>& Reparaties 071 & 0174</div>
   </div>
-  <nav><a href="#prijzen">Prijzen</a><a href="#diensten">Diensten</a><a href="#contact">Contact</a></nav>
+  <nav>
+    <a href="#prijzen">Prijzen</a>
+    <a href="#diensten">Diensten</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
 <main>
@@ -83,16 +100,16 @@ footer{background:var(--dark);color:#b9c2c8;padding:23px 6%;display:flex;justify
       <h2>Reparaties & prijzen</h2>
       <p class="lead">Hieronder vind je onze richtprijzen voor veelvoorkomende reparaties.</p>
       <div class="price-grid">
-        <div class="price"><strong>Binnenband vervangen</strong><b>€ 40,-</b></div>
-        <div class="price"><strong>Buitenband vervangen</strong><b>€ 40,-</b></div>
+        <div class="price"><strong>Binnenband vervangen</strong><b>€ 35,-</b></div>
+        <div class="price"><strong>Buitenband vervangen</strong><b>€ 35,-</b></div>
         <div class="price featured"><strong>Binnen- en buitenband combideal</strong><b>€ 60,-</b></div>
-        <div class="price"><strong>Remblokken vervangen</strong><b>€ 27,50</b></div>
-        <div class="price"><strong>Remhendel vervangen</strong><b>€ 60,-</b></div>
-        <div class="price"><strong>Remblokken + remhendel combideal</strong><b>€ 75,-</b></div>
-        <div class="price"><strong>Trappers vervangen</strong><b>€ 20,-</b></div>
+        <div class="price"><strong>Remblokken vervangen</strong><b>€ 22,50</b></div>
+        <div class="price"><strong>Remhendel vervangen</strong><b>€ 55,-</b></div>
+        <div class="price"><strong>Remblokken + remhendel combideal</strong><b>€ 70,-</b></div>
+        <div class="price"><strong>Trappers vervangen</strong><b>€ 25,-</b></div>
         <div class="price"><strong>Scherm monteren</strong><b>Prijs op aanvraag</b></div>
       </div>
-      <p class="note">Prijzen zijn erg  bespreekbaar en kunnen afhangen van de benodigde tijd en onderdelen. Andere reparaties zijn ook bespreekbaar. Vraag gerust naar de mogelijkheden.</p>
+      <p class="note">Prijzen zijn bespreekbaar en kunnen afhangen van de benodigde tijd en onderdelen. Andere reparaties zijn ook bespreekbaar. Vraag gerust naar de mogelijkheden.</p>
     </div>
   </section>
 
@@ -116,6 +133,7 @@ footer{background:var(--dark);color:#b9c2c8;padding:23px 6%;display:flex;justify
         <p>Stuur een berichtje met wat er aan je fatbike moet gebeuren. Dan bespreken we samen de reparatie en de mogelijkheden.</p>
         <div class="contact-details">
           <a href="tel:+31639356531">Telefoon: +31 6 39356531</a>
+          <a href="mailto:fatbikeservice071.0174@gmail.com">E-mail: fatbikeservice071.0174@gmail.com</a>
           <span>Locatie: Leiden en omstreken & Westland</span>
         </div>
         <div class="socials">
@@ -127,6 +145,9 @@ footer{background:var(--dark);color:#b9c2c8;padding:23px 6%;display:flex;justify
     </div>
   </section>
 </main>
-<footer><span>© 2026 Gespecialiseerde Fatbike Service & Reparaties 071 & 0174</span><span>Leiden</span></footer>
+<footer>
+  <span>© 2026 Gespecialiseerde Fatbike Service & Reparaties 071 & 0174</span>
+  <span>Leiden</span>
+</footer>
 </body>
 </html>
